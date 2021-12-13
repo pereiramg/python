@@ -1,0 +1,13 @@
+Operadores e operações matematicas
+    + Adição
+    - Subtração
+    * Multiplicação
+    / Divisão com resultado fracionário
+    // Divisão com resultados inteiros
+    % Modulo ou resto
+    ** Exponenciação ou potenciação
+
+
+
+
+
