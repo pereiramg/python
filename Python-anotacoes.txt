@@ -8,6 +8,27 @@ Operadores e operações matematicas
     ** Exponenciação ou potenciação
 
 
+operadores relacionais
+    == Igualdade
+    > Maior que
+    < Menor que
+    != Diferente
+    >= maior ou igual
+    <= menor ou igual
 
+Operadores Logicos
+    not
+    and
+    or
+
+Funções
+    len - Retorna o numero de caracteres da string
+
+Marcadores
+    %d - Numeros inteiros
+    %s - strings
+    %f - numeros decimais
+
+    
 
 
