@@ -58,3 +58,54 @@ print (f"{nome:>12} tem {idade:3} anos e R${grana:5.2f} no bolso.")
 print (f"{nome:>12} tem {idade:03} anos e R${grana:5.2f} no bolso.")
 print (f"{nome:<12} tem {idade:<3} anos e R${grana:5.2f} no bolso.")
 
+#Fatiamento de strings
+print ("\nFatiamento de strings")
+s = "ABCDEFGHI"
+print (s[0:2])
+print (s[1:2])
+print (s[2:4])
+print (s[0:5])
+print (s[1:8])
+
+#Na forma negativa ele começa a contar da direita para a esquerda
+#O primeiro campo é onde começa, sempre é 0
+# O segundo campo onde termina, mas sempre omite o numero atual, exemplo:
+# Se termina até o 6 ele exibe até o 5, na forma negativa começa no -1 em vez do 0
+print ("\n")
+print (s[:2])
+print (s[1:])
+print (s[0:-2])
+print (s[:])
+print (s[-1:])
+print (s[-5:7])
+print (s[-2:-1])
+
+# Sequências de tempo
+print ("\nSequências de tempo")
+divida = 0
+compra = 100
+divida = divida + compra
+compra = 200
+divida = divida + compra
+compra = 300
+divida = divida + compra
+compra = 0
+print(divida)
+
+# Entrada de dados
+print ("\nEntrada de dados")
+
+x = input("Digite um numero: ")
+print(x)
+
+nome = input("Digite seu nome: ")
+print(f"Você digitou {nome}")
+print(f"Olá, {nome}")
+
+anos = int(input("Anos de serviço: "))
+valor_por_ano = float(input("Valor por ano: "))
+bonus = anos * valor_por_ano
+print(f"Bonus de R$ {bonus:5.2f}")
+
+
+
