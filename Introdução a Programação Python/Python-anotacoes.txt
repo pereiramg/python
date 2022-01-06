@@ -29,6 +29,19 @@ Marcadores
     %s - strings
     %f - numeros decimais
 
-    
+Condições
+    if condicao :
+        bloco de codigo
+    elif condicao:
+        bloco de codigo
+    else :
+        if condicao:
+            bloco de codigo
+        else:
+            bloco de codigo
+
+Repetição
+    while condicao:
+        bloco de codigo
 
 
