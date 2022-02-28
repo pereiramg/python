@@ -7,7 +7,6 @@ Operadores e operações matematicas
     % Modulo ou resto
     ** Exponenciação ou potenciação
 
-
 operadores relacionais
     == Igualdade
     > Maior que
