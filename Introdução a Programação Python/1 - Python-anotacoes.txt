@@ -43,6 +43,14 @@ Repetição
     while condicao:
         bloco de codigo
 
+Seria o do-while
+    while True:
+        bloco de codigo
+        if...
+            break
+
+
+
 
 
 
