@@ -53,6 +53,23 @@ Listas
     L = []
     Z = [15, 8, 9]
 
+Uma lista compartilha a mesma posição
+    L = [1, 2, 3, 4, 5]
+    V = L
+    Caso eu altere algum valor em V, irá refletir para o L
+Lista com copias separadas
+    L = [1, 2, 3, 4, 5]
+    V = L[:]
+    Quando eu uso o [:], estou fazendo uma copia de todo o conteudo.
+    Assim, caso eu altere algo em V, será somente dele e não reflete em L
+Fatiamento de lista
+    L[0:5]
+    L[:5]
+    L[:-1] --> Remove o ultimo da lista
+    L[1:3]
+    L[1:4]
+    L[3:]
+Podemos usar o len para saber o tamanho das Listas
 
 
 
