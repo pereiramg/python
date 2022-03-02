@@ -20,9 +20,6 @@ Operadores Logicos
     and
     or
 
-Funções
-    len - Retorna o numero de caracteres da string
-
 Marcadores
     %d - Numeros inteiros
     %s - strings
@@ -69,8 +66,14 @@ Fatiamento de lista
     L[1:3]
     L[1:4]
     L[3:]
-Podemos usar o len para saber o tamanho das Listas
 
+Funções
+    len - Retorna o numero de caracteres da string, podemos usar para saber o tamanho de uma lista
+    append - Adicionar um elemento a um objeto Ex.: L.append("b")
+    extend - Adiciona elementos de uma lista a outra
 
+Exemplos com as funções em listas: 
+    L.append(["d", "e"]) --> Adiciona uma lista dentro de outra
+    L.extend(["f", "g", "h"]) --> Extrai os elementos dessa lista e adiciona em L
 
 
