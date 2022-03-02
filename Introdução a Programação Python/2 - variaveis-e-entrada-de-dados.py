@@ -107,5 +107,20 @@ valor_por_ano = float(input("Valor por ano: "))
 bonus = anos * valor_por_ano
 print(f"Bonus de R$ {bonus:5.2f}")
 
+# Alinhar valores usando o >, <, ^ (direita, esquerda ou centro)
+preço = 10
+print(f"Preço: R${preço:>10.2f}")
+print(f"Preço: R${preço:<10.2f}!")
+print(f"Preço: R${preço:^10.2f}!")
 
+# Especificar qual caractere deve ser usado para preencher os valores
+print(f"Preço: R${preço:.^10.2f}")
+print(f"Preço: R${preço:x^10.2f}")
+print(f"Preço: R${preço:_^10.2f}")
+
+# Multiplas linhas 
+print(f""""
+    O Preço do novo produto é: R${preço:10.2f}.
+    E pode ser encontrado nas melhores lojas do ramo
+    """)
 
