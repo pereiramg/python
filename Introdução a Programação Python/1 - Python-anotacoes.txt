@@ -71,6 +71,10 @@ Funções
     len - Retorna o numero de caracteres da string, podemos usar para saber o tamanho de uma lista
     append - Adicionar um elemento a um objeto Ex.: L.append("b")
     extend - Adiciona elementos de uma lista a outra
+    del - Deleta um item da lista. Ex.: del l[0]; del l[1:99]
+    pop - Retorna o valor do elemnto e o exclui da fila. Ex.: fila.pop(0)
+    list - Utilizado para transformar o resultado dessa função em uma lista. Ex.: list(range(101))
+
 
 Exemplos com as funções em listas: 
     L.append(["d", "e"]) --> Adiciona uma lista dentro de outra
