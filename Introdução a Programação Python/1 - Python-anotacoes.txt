@@ -74,7 +74,10 @@ Funções
     del - Deleta um item da lista. Ex.: del l[0]; del l[1:99]
     pop - Retorna o valor do elemnto e o exclui da fila. Ex.: fila.pop(0)
     list - Utilizado para transformar o resultado dessa função em uma lista. Ex.: list(range(101))
-
+    range(10) - Gera uma lista de numeros com o limite especificado
+        range(5,8) - Inicia em 5 e finaliza em 7
+        range(3,33,3) - inicia em 3, vai até 32 e salta de 3 em 3
+    
 
 Exemplos com as funções em listas: 
     L.append(["d", "e"]) --> Adiciona uma lista dentro de outra
